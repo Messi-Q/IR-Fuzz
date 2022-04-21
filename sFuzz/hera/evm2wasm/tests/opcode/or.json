@@ -1,0 +1,68 @@
+[
+  {
+    "op": "OR",
+    "value": "0x17",
+    "description": "0xcc... | 0x33...",
+    "in": {
+      "stack": [
+        "0x3333333333333333333333333333333333333333333333333333333333333333",
+        "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      ]
+    },
+    "out": {
+      "stack": [
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+    },
+    "environment": {
+      "callData": "0x00",
+      "caller": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    }
+  },
+  {
+    "op": "OR",
+    "value": "0x17",
+    "description": "0xcc00.. | 0x0033..",
+    "in": {
+      "stack": [
+        "0x0033003300330033003300330033003300330033003300330033003300330033",
+        "0xcc00cc00cc00cc00cc00cc00cc00cc00cc00cc00cc00cc00cc00cc00cc00cc00"
+      ]
+    },
+    "out": {
+      "stack": [
+        "0xcc33cc33cc33cc33cc33cc33cc33cc33cc33cc33cc33cc33cc33cc33cc33cc33"
+      ]
+    },
+    "environment": {
+      "callData": "0x00",
+      "caller": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    }
+  },
+  {
+    "op": "OR",
+    "value": "0x17",
+    "description": "0xaa | 0x00",
+    "in": {
+      "stack": [
+        "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa00000000000000000000000000000000",
+        "0x00000000000000000000000000000000aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      ]
+    },
+    "out": {
+      "stack": [
+        "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      ]
+    },
+    "environment": {
+      "callData": "0x00",
+      "caller": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    }
+  }
+]

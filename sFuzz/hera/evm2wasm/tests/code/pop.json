@@ -1,0 +1,23 @@
+[
+  {
+    "description": "tests msize and pop",
+    "source": [
+      "MSIZE",
+      "POP"
+    ],
+    "code": "0x5950",
+    "result": {
+      "stack": [],
+      "memory": []
+    },
+    "gasUsed": 4,
+    "environment": {
+      "coinbase": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000"
+    },
+    "message": {
+      "data": "0x",
+      "from": "0x0000000000000000000000000000000000000000"
+    }
+  }
+]

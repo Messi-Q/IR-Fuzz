@@ -1,0 +1,3 @@
+(func $callback
+  (call $main)
+)

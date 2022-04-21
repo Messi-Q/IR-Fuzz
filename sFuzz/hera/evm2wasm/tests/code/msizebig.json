@@ -1,0 +1,29 @@
+[
+  {
+    "description": "tests mstore and msize roundtrip (with big memory)",
+    "source": [
+      "PUSH1",
+      "0x04",
+      "PUSH2",
+      "0x8000",
+      "MSTORE",
+      "MSIZE"
+    ],
+    "code": "0x60046180005259",
+    "result": {
+      "stack": [
+        "0x8020"
+      ],
+      "memory": []
+    },
+    "gasUsed": 5138,
+    "environment": {
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    },
+    "message": {
+      "data": "0x",
+      "from": "0x0000000000000000000000000000000000000000"
+    }
+  }
+]

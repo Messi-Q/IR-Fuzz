@@ -1,0 +1,24 @@
+[
+  {
+    "description": "tests empty msize",
+    "source": [
+      "MSIZE"
+    ],
+    "code": "0x59",
+    "result": {
+      "stack": [
+        "0x00"
+      ],
+      "memory": []
+    },
+    "gasUsed": 2,
+    "environment": {
+      "coinbase": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000"
+    },
+    "message": {
+      "data": "0x",
+      "from": "0x0000000000000000000000000000000000000000"
+    }
+  }
+]

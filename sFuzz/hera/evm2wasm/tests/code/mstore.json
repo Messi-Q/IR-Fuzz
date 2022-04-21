@@ -1,0 +1,31 @@
+[
+  {
+    "description": "tests mstore and mload round trip",
+    "source": [
+      "PUSH1",
+      "0x04",
+      "PUSH1",
+      "0x03",
+      "MSTORE",
+      "PUSH1",
+      "0x03",
+      "MLOAD"
+    ],
+    "code": "0x6004600352600351",
+    "result": {
+      "stack": [
+        "0x04"
+      ],
+      "memory": []
+    },
+    "gasUsed": 21,
+    "environment": {
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    },
+    "message": {
+      "data": "0x",
+      "from": "0x0000000000000000000000000000000000000000"
+    }
+  }
+]

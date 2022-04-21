@@ -1,0 +1,56 @@
+[
+  {
+    "op": "SWAP",
+    "value": "0x90",
+    "description": "SWAP0",
+    "params": [
+      0
+    ],
+    "in": {
+      "stack": [
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "0x4242000000000000000000000000000000000000000000000000000000004242"
+      ]
+    },
+    "out": {
+      "stack": [
+        "0x4242000000000000000000000000000000000000000000000000000000004242",
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+    },
+    "environment": {
+      "callData": "0x00",
+      "caller": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    }
+  },
+  {
+    "op": "SWAP",
+    "value": "0x91",
+    "description": "SWAP1",
+    "params": [
+      1
+    ],
+    "in": {
+      "stack": [
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "0x4242000000000000000000000000000000000000000000000000000000004242",
+        "0x0000000000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    "out": {
+      "stack": [
+        "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "0x4242000000000000000000000000000000000000000000000000000000004242",
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+    },
+    "environment": {
+      "callData": "0x00",
+      "caller": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    }
+  }
+]

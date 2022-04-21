@@ -1,0 +1,68 @@
+[
+  {
+    "op": "ADD",
+    "value": "0x01",
+    "description": "2^255 + 2^255",
+    "in": {
+      "stack": [
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+    },
+    "out": {
+      "stack": [
+        "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe"
+      ]
+    },
+    "environment": {
+      "callData": "0x00",
+      "caller": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    }
+  },
+  {
+    "op": "ADD",
+    "value": "0x01",
+    "description": "2^255 + 0",
+    "in": {
+      "stack": [
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "0x0000000000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    "out": {
+      "stack": [
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+    },
+    "environment": {
+      "callData": "0x00",
+      "caller": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    }
+  },
+  {
+    "op": "ADD",
+    "value": "0x01",
+    "description": "2 + 2",
+    "in": {
+      "stack": [
+        "0x0000000000000000000000000000000000000000000000000000000000000002",
+        "0x0000000000000000000000000000000000000000000000000000000000000002"
+      ]
+    },
+    "out": {
+      "stack": [
+        "0x0000000000000000000000000000000000000000000000000000000000000004"
+      ]
+    },
+    "environment": {
+      "callData": "0x00",
+      "caller": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    }
+  }
+]

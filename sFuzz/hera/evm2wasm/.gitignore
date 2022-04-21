@@ -1,0 +1,10 @@
+.swp
+.gch
+
+/build
+/.idea
+/deps
+
+tmp/*
+!tmp/.gitkeep
+node_modules/

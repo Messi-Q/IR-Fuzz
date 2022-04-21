@@ -1,0 +1,27 @@
+[
+  {
+    "description": "test that no code runs STOP",
+    "source": [
+      "PUSH1",
+      "0x03",
+      "STOP",
+      "MUL"
+    ],
+    "code": "0x60030002",
+    "result": {
+      "stack": [
+        "0x03"
+      ],
+      "memory": []
+    },
+    "gasUsed": 3,
+    "environment": {
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    },
+    "message": {
+      "data": "0x",
+      "from": "0x0000000000000000000000000000000000000000"
+    }
+  }
+]

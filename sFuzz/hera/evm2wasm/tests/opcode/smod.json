@@ -1,0 +1,112 @@
+[
+  {
+    "op": "SMOD",
+    "value": "0x07",
+    "description": "-1 mod -1",
+    "in": {
+      "stack": [
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+    },
+    "out": {
+      "stack": [
+        "0x0000000000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    "environment": {
+      "callData": "0x00",
+      "caller": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    }
+  },
+  {
+    "op": "SMOD",
+    "value": "0x07",
+    "description": "-1 mod 0",
+    "in": {
+      "stack": [
+        "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+    },
+    "out": {
+      "stack": [
+        "0x0000000000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    "environment": {
+      "callData": "0x00",
+      "caller": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    }
+  },
+  {
+    "op": "SMOD",
+    "value": "0x07",
+    "description": "-1 mod 2",
+    "in": {
+      "stack": [
+        "0x0000000000000000000000000000000000000000000000000000000000000002",
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+    },
+    "out": {
+      "stack": [
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+    },
+    "environment": {
+      "callData": "0x00",
+      "caller": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    }
+  },
+  {
+    "op": "SMOD",
+    "value": "0x07",
+    "description": "2 mod -1",
+    "in": {
+      "stack": [
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "0x0000000000000000000000000000000000000000000000000000000000000002"
+      ]
+    },
+    "out": {
+      "stack": [
+        "0x0000000000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    "environment": {
+      "callData": "0x00",
+      "caller": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    }
+  },
+  {
+    "op": "SMOD",
+    "value": "0x07",
+    "description": "1 mod 2",
+    "in": {
+      "stack": [
+        "0x0000000000000000000000000000000000000000000000000000000000000002",
+        "0x0000000000000000000000000000000000000000000000000000000000000001"
+      ]
+    },
+    "out": {
+      "stack": [
+        "0x0000000000000000000000000000000000000000000000000000000000000001"
+      ]
+    },
+    "environment": {
+      "callData": "0x00",
+      "caller": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000",
+      "coinbase": "0x0000000000000000000000000000000000000000"
+    }
+  }
+]

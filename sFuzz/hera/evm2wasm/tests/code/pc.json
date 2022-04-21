@@ -1,0 +1,27 @@
+[
+  {
+    "description": "tests the program counter",
+    "source": [
+      "PUSH1",
+      "0x01",
+      "POP",
+      "PC"
+    ],
+    "code": "0x60015058",
+    "result": {
+      "stack": [
+        "0x03"
+      ],
+      "memory": []
+    },
+    "gasUsed": 7,
+    "environment": {
+      "coinbase": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000"
+    },
+    "message": {
+      "data": "0x",
+      "from": "0x0000000000000000000000000000000000000000"
+    }
+  }
+]

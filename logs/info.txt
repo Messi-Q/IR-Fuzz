@@ -1,0 +1,60 @@
+----
+Candidate jumpi :
+userBalance[msg.sender] < PrizePool && userBalance[msg.sender] > 0
+pc: 196
+Candidate jumpi :
+if (
+            userBalance[msg.sender] < PrizePool && userBalance[msg.sender] > 0
+        ) {
+            msg.sender.call.value(userBalance[msg.sender])();
+            PrizePool = PrizePool - userBalance[msg.sender];
+            userBalance[msg.sender] = 0;
+        }
+runtime pc: 269
+----
+Candidate jumpi :
+num > luckyNum && msg.value == 50 finney
+pc: 686
+Candidate jumpi :
+if (num > luckyNum && msg.value == 50 finney) {
+            userBalance[msg.sender] = userBalance[msg.sender] + msg.value * 2;
+        }
+runtime pc: 703
+>> Full
+num > luckyNum && msg.value == 50 finney
+>> Full
+userBalance[msg.sender] < PrizePool && userBalance[msg.sender] > 0
+>> Full
+if (num > luckyNum && msg.value == 50 finney) {
+            userBalance[msg.sender] = userBalance[msg.sender] + msg.value * 2;
+        }
+>> Full
+if (
+            userBalance[msg.sender] < PrizePool && userBalance[msg.sender] > 0
+        ) {
+            msg.sender.call.value(userBalance[msg.sender])();
+            PrizePool = PrizePool - userBalance[msg.sender];
+            userBalance[msg.sender] = 0;
+        }
+----
+Candidate jumpi :
+userBalance[msg.sender] < PrizePool && userBalance[msg.sender] > 0
+pc: 196
+Candidate jumpi :
+if (
+            userBalance[msg.sender] < PrizePool && userBalance[msg.sender] > 0
+        ) {
+            msg.sender.call.value(userBalance[msg.sender])();
+            PrizePool = PrizePool - userBalance[msg.sender];
+            userBalance[msg.sender] = 0;
+        }
+runtime pc: 269
+----
+Candidate jumpi :
+num > luckyNum && msg.value == 50 finney
+pc: 686
+Candidate jumpi :
+if (num > luckyNum && msg.value == 50 finney) {
+            userBalance[msg.sender] = userBalance[msg.sender] + msg.value * 2;
+        }
+runtime pc: 703

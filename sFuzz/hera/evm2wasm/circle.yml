@@ -1,0 +1,168 @@
+defaults:
+
+  npm-install: &npm-install
+    run:
+      name: "Install npm deps"
+      command: |
+        npm install --no-package-lock
+
+  lint: &lint
+    run:
+      name: "Lint source code"
+      command: |
+        npm run lint
+
+  validate-build: &validate-build
+    run:
+      name: "Validate build artifacts were correctly included"
+      command: |
+        npm run build:validate
+
+  install-cpp-ethereum: &install-cpp-ethereum
+    run:
+      name: "Install cpp-ethereum"
+      command: |
+        URL=https://github.com/ethereum/cpp-ethereum/releases/download/v1.4.0rc4/aleth-1.4.0rc4-linux-x86_64.tar.gz
+        curl -L $URL | sudo tar xz -C /usr/local
+
+  build-hera: &build-hera
+    run: 
+      name: "Build hera"
+      working_directory: ~
+      command: |
+        git clone https://github.com/ewasm/hera
+        cd hera
+        git reset 30d0354918e7265833ab78de33caafb4adbb27ea --hard
+        git submodule update --init --recursive
+        cmake -DBUILD_SHARED_LIBS=ON .
+        make -j8
+        mv ~/evm2wasm/hera/src/libhera.so ~/libhera.so
+
+  build-hera-cpp: &build-hera-cpp
+    run: 
+      name: "Build hera (with builtin evm2wasm)"
+      working_directory: ~
+      command: |
+        git clone https://github.com/ewasm/hera
+        cd hera
+        git reset 30d0354918e7265833ab78de33caafb4adbb27ea --hard
+        git submodule update --init --recursive
+        rm -rf evm2wasm
+        ln -s /home/builder/evm2wasm evm2wasm
+        cmake -DBUILD_SHARED_LIBS=ON -DCMAKE_TOOLCHAIN_FILE=evm2wasm/cmake/toolchains/cxx11-pic.cmake .
+        make -j8
+        mv ~/evm2wasm/hera/src/libhera.so ~/libhera.so
+
+  vm-tests: &vm-tests
+    run:
+      name: "Run ethereum VM tests"
+      command: |
+        npm run vmTests
+
+  print-cpp-hera-version: &print-cpp-hera-version
+    run:
+      name: "Using cpp-ethereum and Hera versions:"
+      working_directory: ~/
+      command: |
+        cd cpp-ethereum
+        echo "cpp-ethereum branch: $(git rev-parse --abbrev-ref HEAD)  commit: $(git rev-parse HEAD)"
+        cd hera
+        echo "hera branch: $(git rev-parse --abbrev-ref HEAD)  commit: $(git rev-parse HEAD)"
+
+  clone-tests: &clone-tests
+    run:
+      name: "Run Ethereum state tests"
+      command: |
+        git clone https://github.com/ethereum/tests ~/tests
+
+  state-tests: &state-tests
+    run:
+      name: "Run Ethereum state tests"
+      working_directory: ~/build
+      command: |
+        echo 'export PATH=~/evm2wasm/bin:$PATH' >> $BASH_ENV
+        source $BASH_ENV
+        echo "running testeth command..."
+        testeth -t GeneralStateTests/stExample -- --testpath ~/tests --singlenet "Byzantium" --singletest "add11" --vm ~/libhera.so --evmc evm2wasm.js=true
+        testeth -t GeneralStateTests/stStackTests -- --testpath ~/tests --singlenet "Byzantium" --vm ~/libhera.so --evmc evm2wasm.js=true
+        testeth -t GeneralStateTests/stBadOpcode -- --testpath ~/tests --singlenet "Byzantium" --vm ~/libhera.so --evmc evm2wasm.js=true
+        testeth -t GeneralStateTests/stCallCodes -- --testpath ~/tests --singlenet "Byzantium" --singletest "callcall_00" --vm ~/libhera.so --evmc evm2wasm.js=true
+        testeth -t GeneralStateTests/stCallCodes -- --testpath ~/tests --singlenet "Byzantium" --singletest "callcallcode_01" --vm ~/libhera.so --evmc evm2wasm.js=true
+        testeth -t GeneralStateTests/stMemoryTest -- --testpath ~/tests --singlenet "Byzantium" --singletest "memReturn" --vm ~/libhera.so --evmc evm2wasm.js=true
+        echo "ran the state tests."
+
+  state-tests: &state-tests-cpp
+    run:
+      name: "Run Ethereum state tests"
+      working_directory: ~/build
+      command: |
+        echo 'export PATH=~/evm2wasm/bin:$PATH' >> $BASH_ENV
+        source $BASH_ENV
+        echo "running testeth command..."
+        testeth -t GeneralStateTests/stExample -- --testpath ~/tests --singlenet "Byzantium" --singletest "add11" --vm ~/libhera.so --evmc evm2wasm.cpp=true
+        #testeth -t GeneralStateTests/stStackTests -- --testpath ~/tests --singlenet "Byzantium" --vm ~/libhera.so --evmc evm2wasm.cpp=true
+        testeth -t GeneralStateTests/stBadOpcode -- --testpath ~/tests --singlenet "Byzantium" --vm ~/libhera.so --evmc evm2wasm.cpp=true
+        testeth -t GeneralStateTests/stCallCodes -- --testpath ~/tests --singlenet "Byzantium" --singletest "callcall_00" --vm ~/libhera.so --evmc evm2wasm.cpp=true
+        testeth -t GeneralStateTests/stCallCodes -- --testpath ~/tests --singlenet "Byzantium" --singletest "callcallcode_01" --vm ~/libhera.so --evmc evm2wasm.cpp=true
+        testeth -t GeneralStateTests/stMemoryTest -- --testpath ~/tests --singlenet "Byzantium" --singletest "memReturn" --vm ~/libhera.so --evmc evm2wasm.cpp=true
+        echo "ran the state tests."
+
+  cli-tests: &cli-tests
+    run:
+      name: "Basic CLI validation"
+      working_directory: ~/evm2wasm
+      command: |
+        bin/evm2wasm.js 600160020200 --trace
+        build/tools/evm2wasm/evm2wasm <(echo "600160020200")
+
+  js-state-test-steps: &js-state-test-steps
+    - checkout
+    - *npm-install
+    - *lint
+    - *validate-build
+    - *clone-tests
+    #- *build-cpp
+    #- *cli-tests # weird chars mess up the console
+    #- *vm-tests # vm-tests temporarily disabled until ewasm-kernel is fixed
+    # - *print-cpp-hera-version
+    - *install-cpp-ethereum
+    - *build-hera
+    # - *store-hera
+    - *state-tests
+
+  cpp-state-test-steps: &cpp-state-test-steps
+    - checkout
+    - *npm-install
+    - *lint
+    - *validate-build
+    - *clone-tests
+    #- *build-cpp
+    #- *cli-tests # weird chars mess up the console
+    #- *vm-tests # vm-tests temporarily disabled until ewasm-kernel is fixed
+    # - *print-cpp-hera-version
+    - *install-cpp-ethereum
+    - *build-hera-cpp
+    # - *store-hera
+    - *state-tests-cpp
+
+version: 2
+jobs:
+  # to run this using local circleci tool, rename Ewasm-Tests to `build` then do `circleci build -c circle.yml`
+  build-js:
+    working_directory: ~/evm2wasm
+    docker:
+      - image: cdetrio/nodejs-cpp-build-env
+    steps: *js-state-test-steps
+
+  build-cpp:
+    working_directory: ~/evm2wasm
+    docker:
+      - image: cdetrio/nodejs-cpp-build-env
+    steps: *cpp-state-test-steps
+
+workflows:
+  version: 2
+  evm2wasm-build:
+    jobs:
+       - build-js
+       - build-cpp

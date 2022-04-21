@@ -1,0 +1,33 @@
+[
+  {
+    "description": "test jumpdest",
+    "source": [
+      "PUSH1",
+      "0x04",
+      "JUMP",
+      "STOP",
+      "JUMPDEST",
+      "PUSH1",
+      "0x03",
+      "PUSH1",
+      "0x03",
+      "ADD"
+    ],
+    "code": "0x600456005b6003600301",
+    "result": {
+      "stack": [
+        "0x06"
+      ],
+      "memory": []
+    },
+    "gasUsed": 21,
+    "environment": {
+      "coinbase": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000"
+    },
+    "message": {
+      "data": "0x",
+      "from": "0x0000000000000000000000000000000000000000"
+    }
+  }
+]

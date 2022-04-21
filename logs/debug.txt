@@ -1,0 +1,10549 @@
+Cover new branch 269:518
+Cover new branch 686:698
+Cover new branch 196:197
+Cover new branch 703:838
+Found new uncovered branch
+now: 59189008128332244393614376961
+Found new uncovered branch
+now: 78338746147236970124700731725183845421594913511827187288591969170390706184118
+Found new uncovered branch
+now: 1
+Found new uncovered branch
+now: 78338746147236970124700731725183845421594913511827187288591969170390706184118
+ == Leader ==
+Branch 				 196:264
+Comp 				 59189008128332244393614376961
+Fuzzed 				 0
+SingleWalkingBit
+Found better test case for uncovered branch 196:264
+prev: 59189008128332244393614376961
+now : 29478447185483117796035395585
+Found better test case for uncovered branch 686:687
+prev: 78338746147236970124700731725183845421594913511827187288591969170390706184118
+now : 26996693818633820576022177459358728946067279180426265009390267892683348129370
+Found better test case for uncovered branch 703:704
+prev: 78338746147236970124700731725183845421594913511827187288591969170390706184118
+now : 26996693818633820576022177459358728946067279180426265009390267892683348129370
+Found better test case for uncovered branch 686:687
+prev: 26996693818633820576022177459358728946067279180426265009390267892683348129370
+now : 26039682799838434227469560046354613435299798356411843822303087374356738550112
+Found better test case for uncovered branch 703:704
+prev: 26996693818633820576022177459358728946067279180426265009390267892683348129370
+now : 26039682799838434227469560046354613435299798356411843822303087374356738550112
+Found better test case for uncovered branch 686:687
+prev: 26039682799838434227469560046354613435299798356411843822303087374356738550112
+now : 19228477611731714238590693842148072356291673383677975654577390699756898717215
+Found better test case for uncovered branch 703:704
+prev: 26039682799838434227469560046354613435299798356411843822303087374356738550112
+now : 19228477611731714238590693842148072356291673383677975654577390699756898717215
+Found better test case for uncovered branch 686:687
+prev: 19228477611731714238590693842148072356291673383677975654577390699756898717215
+now : 688633034853035615555175784595507912549042913776363109291098402778508597611
+Found better test case for uncovered branch 703:704
+prev: 19228477611731714238590693842148072356291673383677975654577390699756898717215
+now : 688633034853035615555175784595507912549042913776363109291098402778508597611
+TwoWalkingBit
+Found better test case for uncovered branch 196:264
+prev: 29478447185483117796035395585
+now : 14623166714058554497245904897
+Cover new branch 686:687
+Found better test case for uncovered branch 703:704
+prev: 688633034853035615555175784595507912549042913776363109291098402778508597611
+now : 19729669376060748131204792321
+FourWalkingBit
+Found better test case for uncovered branch 196:264
+prev: 14623166714058554497245904897
+now : 7195526478346272847851159553
+Found better test case for uncovered branch 196:264
+prev: 7195526478346272847851159553
+now : 3481706360490132023153786881
+SingleWalkingByte
+TwoWalkingByte
+FourWalkingByte
+havoc
+Found better test case for uncovered branch 196:264
+prev: 3481706360490132023153786881
+now : 25
+Found better test case for uncovered branch 703:704
+prev: 19729669376060748131204792321
+now : 291603774478659162327042
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 0
+SingleWalkingBit
+TwoWalkingBit
+FourWalkingBit
+SingleWalkingByte
+TwoWalkingByte
+FourWalkingByte
+havoc
+ == Leader ==
+Branch 				 703:704
+Comp 				 291603774478659162327042
+Fuzzed 				 0
+SingleWalkingBit
+Found better test case for uncovered branch 703:704
+prev: 291603774478659162327042
+now : 140488047026830515488770
+TwoWalkingBit
+Found better test case for uncovered branch 703:704
+prev: 140488047026830515488770
+now : 64930183300916192069634
+FourWalkingBit
+Found better test case for uncovered branch 703:704
+prev: 64930183300916192069634
+now : 8261785506480449505282
+SingleWalkingByte
+TwoWalkingByte
+FourWalkingByte
+havoc
+Found better test case for uncovered branch 703:704
+prev: 8261785506480449505282
+now : 602516083178892820481
+ == Leader ==
+Branch 				 196:264
+Comp 				 25
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 602516083178892820481
+now : 49999999999999993
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49999999999999993
+Fuzzed 				 0
+SingleWalkingBit
+Found better test case for uncovered branch 703:704
+prev: 49999999999999993
+now : 22057594037927945
+Found better test case for uncovered branch 703:704
+prev: 22057594037927945
+now : 13971202981036025
+TwoWalkingBit
+Found better test case for uncovered branch 703:704
+prev: 13971202981036025
+now : 4043195528445961
+Found better test case for uncovered branch 196:264
+prev: 25
+now : 13
+FourWalkingBit
+SingleWalkingByte
+TwoWalkingByte
+FourWalkingByte
+havoc
+ == Leader ==
+Branch 				 196:264
+Comp 				 13
+Fuzzed 				 0
+SingleWalkingBit
+TwoWalkingBit
+Found better test case for uncovered branch 703:704
+prev: 4043195528445961
+now : 4043195528445957
+Found better test case for uncovered branch 196:264
+prev: 13
+now : 7
+FourWalkingBit
+SingleWalkingByte
+TwoWalkingByte
+FourWalkingByte
+havoc
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4043195528445957
+Fuzzed 				 0
+SingleWalkingBit
+Found better test case for uncovered branch 703:704
+prev: 4043195528445957
+now : 4043195528445953
+TwoWalkingBit
+FourWalkingBit
+Found better test case for uncovered branch 703:704
+prev: 4043195528445953
+now : 1791395714760709
+SingleWalkingByte
+TwoWalkingByte
+FourWalkingByte
+havoc
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1791395714760709
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 1791395714760709
+now : 108560378036221
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 108560378036221
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 108560378036221
+now : 108560378032125
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 108560378032125
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 108560378032125
+now : 67602959074945
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 67602959074945
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 67602959074945
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 67602959074945
+now : 67602957533185
+Found better test case for uncovered branch 703:704
+prev: 67602957533185
+now : 67329230391102
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 67329230391102
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 67329230391102
+now : 67329230227710
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 67329230227710
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 67329230227710
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 67329230227710
+now : 66779474413822
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 66779474413822
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 12
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 66779474413822
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 13
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 66779474413822
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 66779474413822
+now : 66779411499262
+Found better test case for uncovered branch 703:704
+prev: 66779411499262
+now : 65405084879102
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 12
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 14
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 65405084879102
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 13
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 15
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 65405084879102
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 65405084879102
+now : 65405059713281
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 14
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 16
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 65405059713281
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 15
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 17
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 65405059713281
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 7
+Fuzzed 				 16
+havoc
+Found better test case for uncovered branch 196:264
+prev: 7
+now : 6
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 18
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 65405059713281
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 6
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 19
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 65405059713281
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 65405059713281
+now : 65405059680513
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 6
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 20
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 65405059680513
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 65405059680513
+now : 59907501541633
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 6
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 21
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 59907501541633
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 59907501541633
+now : 59907500212225
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 6
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 22
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 59907500212225
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 6
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 23
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 59907500212225
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 6
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 24
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 59907500212225
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 196:264
+Comp 				 6
+Fuzzed 				 7
+havoc
+Cover new branch 196:264
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 25
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 59907500212225
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 26
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 59907500212225
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 27
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 59907500212225
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 28
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 59907500212225
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 29
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 59907500212225
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 30
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 59907500212225
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 31
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 59907500212225
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 32
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 59907500212225
+Fuzzed 				 11
+havoc
+Found better test case for uncovered branch 703:704
+prev: 59907500212225
+now : 59878509182977
+Found better test case for uncovered branch 703:704
+prev: 59878509182977
+now : 38328510775297
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 33
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 38328510775297
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 34
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 38328510775297
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 35
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 38328510775297
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 36
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 38328510775297
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 37
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 38328510775297
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 38
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 38328510775297
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 39
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 38328510775297
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 40
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 38328510775297
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 41
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 38328510775297
+Fuzzed 				 9
+havoc
+Found better test case for uncovered branch 703:704
+prev: 38328510775297
+now : 38328502386689
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 42
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 38328502386689
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 43
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 38328502386689
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 44
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 38328502386689
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 45
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 38328502386689
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 46
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 38328502386689
+Fuzzed 				 5
+havoc
+Found better test case for uncovered branch 703:704
+prev: 38328502386689
+now : 32006310526977
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 47
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 32006310526977
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 32006310526977
+now : 22660461690881
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 48
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 22660461690881
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 49
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 22660461690881
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 50
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 22660461690881
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 51
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 22660461690881
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 52
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 22660461690881
+Fuzzed 				 5
+havoc
+Found better test case for uncovered branch 703:704
+prev: 22660461690881
+now : 22660361027585
+Found better test case for uncovered branch 703:704
+prev: 22660361027585
+now : 22660344266433
+Found better test case for uncovered branch 703:704
+prev: 22660344266433
+now : 20461438435345
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 53
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 20461438435345
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 54
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 20461438435345
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 55
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 20461438435345
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 56
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 20461438435345
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 20461438435345
+now : 19945613885441
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 57
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19945613885441
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 19945613885441
+now : 19945051865089
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 58
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19945051865089
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 19945051865089
+now : 19945051863553
+Found better test case for uncovered branch 703:704
+prev: 19945051863553
+now : 19945051852865
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 59
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19945051852865
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 60
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19945051852865
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 19945051852865
+now : 19945051852801
+Found better test case for uncovered branch 703:704
+prev: 19945051852801
+now : 19807671619593
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 61
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19807671619593
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 62
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19807671619593
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 63
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19807671619593
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 19807671619593
+now : 19774385623049
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 64
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19774385623049
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 65
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19774385623049
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 66
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19774385623049
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 67
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19774385623049
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 19774385623049
+now : 19750763302921
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 68
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19750763302921
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 69
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19750763302921
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 70
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19750763302921
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 71
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19750763302921
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 72
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 19750763302921
+Fuzzed 				 5
+havoc
+Found better test case for uncovered branch 703:704
+prev: 19750763302921
+now : 13703449350153
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 73
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13703449350153
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 74
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13703449350153
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 75
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13703449350153
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 76
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13703449350153
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 77
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13703449350153
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 78
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13703449350153
+Fuzzed 				 6
+havoc
+Found better test case for uncovered branch 703:704
+prev: 13703449350153
+now : 10679792373769
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 79
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10679792373769
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 80
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10679792373769
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 81
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10679792373769
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 82
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10679792373769
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 83
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10679792373769
+Fuzzed 				 5
+havoc
+Found better test case for uncovered branch 703:704
+prev: 10679792373769
+now : 10679792369665
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 84
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10679792369665
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 85
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10679792369665
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 86
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10679792369665
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 10679792369665
+now : 4082722603025
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 87
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4082722603025
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4082722603025
+now : 3927030038545
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 88
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3927030038545
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 3927030038545
+now : 3865830948561
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 89
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3865830948561
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 90
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3865830948561
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 3865830948561
+now : 3864698486481
+Found better test case for uncovered branch 703:704
+prev: 3864698486481
+now : 1666805087953
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 91
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1666805087953
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 92
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1666805087953
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 93
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1666805087953
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 1666805087953
+now : 1666805038794
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 94
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1666805038794
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 95
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1666805038794
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 96
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1666805038794
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 97
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1666805038794
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 98
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1666805038794
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 99
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1666805038794
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 100
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1666805038794
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 101
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1666805038794
+Fuzzed 				 8
+havoc
+Found better test case for uncovered branch 703:704
+prev: 1666805038794
+now : 1666792455882
+Found better test case for uncovered branch 703:704
+prev: 1666792455882
+now : 1117049224906
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 102
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1117049224906
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 103
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1117049224906
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 1117049224906
+now : 1116980576257
+Found better test case for uncovered branch 703:704
+prev: 1116980576257
+now : 1116447899594
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 104
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1116447899594
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 1116447899594
+now : 1115911028673
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 105
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1115911028673
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 106
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1115911028673
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 107
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1115911028673
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 108
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1115911028673
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 1115911028673
+now : 292279731521
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 109
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 292279731521
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 110
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 292279731521
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 292279731521
+now : 291294070081
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 111
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291294070081
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 291294070081
+now : 291274760193
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 112
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291274760193
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 113
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291274760193
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 114
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291274760193
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 291274760193
+now : 291274760133
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 115
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291274760133
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 116
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291274760133
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 291274760133
+now : 291273170309
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 117
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291273170309
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 291273170309
+now : 291273169221
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 118
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291273169221
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 291273169221
+now : 291273113633
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 119
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291273113633
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 120
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291273113633
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 121
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291273113633
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 122
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291273113633
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 123
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291273113633
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 124
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291273113633
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 125
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291273113633
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 126
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291273113633
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 127
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291273113633
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 128
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291273113633
+Fuzzed 				 10
+havoc
+Found better test case for uncovered branch 703:704
+prev: 291273113633
+now : 291264791649
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 129
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291264791649
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 130
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291264791649
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 291264791649
+now : 291172516961
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 131
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291172516961
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 132
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 291172516961
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 291172516961
+now : 291101213793
+Found better test case for uncovered branch 703:704
+prev: 291101213793
+now : 290098775137
+Found better test case for uncovered branch 703:704
+prev: 290098775137
+now : 18454677761
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 133
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 18454677761
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 134
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 18454677761
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 18454677761
+now : 18412734721
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 135
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 18412734721
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 18412734721
+now : 17473210625
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 136
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17473210625
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 137
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17473210625
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 17473210625
+now : 17473142785
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 138
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17473142785
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 139
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17473142785
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 140
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17473142785
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 141
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17473142785
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 142
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17473142785
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 143
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17473142785
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 144
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17473142785
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 145
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17473142785
+Fuzzed 				 8
+havoc
+Found better test case for uncovered branch 703:704
+prev: 17473142785
+now : 17472585729
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 146
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17472585729
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 17472585729
+now : 17469374465
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 147
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17469374465
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 148
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17469374465
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 149
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17469374465
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 17469374465
+now : 17469292545
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 150
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17469292545
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 17469292545
+now : 17469210625
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 151
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17469210625
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 152
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17469210625
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 153
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17469210625
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 154
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17469210625
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 155
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17469210625
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 156
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17469210625
+Fuzzed 				 6
+havoc
+Found better test case for uncovered branch 703:704
+prev: 17469210625
+now : 17460839105
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 157
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17460839105
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 17460839105
+now : 17439867585
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 158
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17439867585
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 17439867585
+now : 17439867457
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 159
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17439867457
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 17439867457
+now : 17439851073
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 160
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17439851073
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 161
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 17439851073
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 17439851073
+now : 16529687105
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 162
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 16529687105
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 163
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 16529687105
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 164
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 16529687105
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 165
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 16529687105
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 166
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 16529687105
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 167
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 16529687105
+Fuzzed 				 6
+havoc
+Found better test case for uncovered branch 703:704
+prev: 16529687105
+now : 16529687041
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 168
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 16529687041
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 169
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 16529687041
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 16529687041
+now : 6991839258
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 170
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 6991839258
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 6991839258
+now : 6991839241
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 171
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 6991839241
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 172
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 6991839241
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 173
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 6991839241
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 174
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 6991839241
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 6991839241
+now : 4844355593
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 175
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4844355593
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4844355593
+now : 4844354505
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 176
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4844354505
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 177
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4844354505
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 178
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4844354505
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 179
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4844354505
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 180
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4844354505
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 181
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4844354505
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 182
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4844354505
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 183
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4844354505
+Fuzzed 				 8
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4844354505
+now : 4844344329
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 184
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4844344329
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4844344329
+now : 4718515209
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 185
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4718515209
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 186
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4718515209
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4718515209
+now : 4663989257
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 187
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4663989257
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 188
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4663989257
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4663989257
+now : 4663984193
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 189
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4663984193
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 190
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4663984193
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 191
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4663984193
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 192
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4663984193
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 193
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4663984193
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 194
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4663984193
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 195
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4663984193
+Fuzzed 				 7
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4663984193
+now : 4651401281
+Found better test case for uncovered branch 703:704
+prev: 4651401281
+now : 4600430657
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 196
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4600430657
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 197
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4600430657
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4600430657
+now : 4600430651
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 198
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4600430651
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4600430651
+now : 4596662395
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 199
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4596662395
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4596662395
+now : 4593436207
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 200
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4593436207
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 201
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4593436207
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4593436207
+now : 4593436202
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 202
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4593436202
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 203
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4593436202
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 204
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4593436202
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 205
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4593436202
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 206
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4593436202
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 207
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4593436202
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 208
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4593436202
+Fuzzed 				 7
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4593436202
+now : 4593436197
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 209
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4593436197
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4593436197
+now : 4593433957
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 210
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4593433957
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 211
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4593433957
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 212
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4593433957
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4593433957
+now : 4592439334
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 213
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592439334
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 214
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592439334
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 215
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592439334
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 216
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592439334
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 217
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592439334
+Fuzzed 				 5
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4592439334
+now : 4592435201
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 218
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 219
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 220
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 221
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 222
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 223
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 224
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 225
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 226
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 227
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 228
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 229
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 12
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 230
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 13
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 231
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 14
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 232
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 15
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 233
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 16
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 234
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 17
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 235
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 18
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 236
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 19
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 237
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 20
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 238
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 21
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 239
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 22
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 240
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 23
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 241
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 24
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 242
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 25
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 243
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 26
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 244
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 27
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 245
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 28
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 246
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 29
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 247
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 30
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 248
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4592435201
+Fuzzed 				 31
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4592435201
+now : 4584062977
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 249
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584062977
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 250
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584062977
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 251
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584062977
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4584062977
+now : 4584046593
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 252
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 253
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 254
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 255
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 256
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 257
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 258
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 259
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 260
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 261
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 262
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 263
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 12
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 264
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 13
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 265
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 14
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 266
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 15
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 267
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 16
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 268
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 17
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 269
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 18
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 270
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 19
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 271
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 20
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 272
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 21
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 273
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 22
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 274
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 23
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 275
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 24
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 276
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 25
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 277
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 26
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 278
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 27
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 279
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 28
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 280
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 29
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 281
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 30
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 282
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 31
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 283
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 32
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 284
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 33
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 285
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 34
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 286
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 35
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 287
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 36
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 288
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 37
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 289
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 38
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 290
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 39
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 291
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 40
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 292
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 41
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 293
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4584046593
+Fuzzed 				 42
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4584046593
+now : 4508550593
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 294
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4508550593
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4508550593
+now : 4508548801
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 295
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4508548801
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 296
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4508548801
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4508548801
+now : 4506468353
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 297
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4506468353
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 298
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4506468353
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4506468353
+now : 4506452929
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 299
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4506452929
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4506452929
+now : 4506451905
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 300
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4506451905
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 301
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4506451905
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4506451905
+now : 4506451841
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 302
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4506451841
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4506451841
+now : 4505927553
+Found better test case for uncovered branch 703:704
+prev: 4505927553
+now : 3519790977
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 303
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3519790977
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 304
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3519790977
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 305
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3519790977
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 306
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3519790977
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 3519790977
+now : 3519774721
+Found better test case for uncovered branch 703:704
+prev: 3519774721
+now : 3519233921
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 307
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3519233921
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 308
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3519233921
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 3519233921
+now : 3519217665
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 309
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3519217665
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 310
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3519217665
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 311
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3519217665
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 3519217665
+now : 3509731329
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 312
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3509731329
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 3509731329
+now : 3480944641
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 313
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3480944641
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 314
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3480944641
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 315
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 3480944641
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 3480944641
+now : 2482716673
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 316
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482716673
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 2482716673
+now : 2482700289
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 317
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 318
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 319
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 320
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 321
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 322
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 323
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 324
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 325
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 326
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 327
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 328
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 12
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 329
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 13
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 330
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 14
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 331
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 15
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 332
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 16
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 333
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 17
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 334
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 18
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 335
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 19
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 336
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 20
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 337
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 21
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 338
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2482700289
+Fuzzed 				 22
+havoc
+Found better test case for uncovered branch 703:704
+prev: 2482700289
+now : 2436562953
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 339
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2436562953
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 340
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2436562953
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 341
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2436562953
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 342
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2436562953
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 343
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2436562953
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 344
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2436562953
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 345
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2436562953
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 346
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2436562953
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 347
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2436562953
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 348
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2436562953
+Fuzzed 				 10
+havoc
+Found better test case for uncovered branch 703:704
+prev: 2436562953
+now : 2436562949
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 349
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2436562949
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 350
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2436562949
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 2436562949
+now : 2436562945
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 351
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2436562945
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 352
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2436562945
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 2436562945
+now : 1858404353
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 353
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1858404353
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 1858404353
+now : 1854603329
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 354
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1854603329
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 355
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1854603329
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 1854603329
+now : 1854603265
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 356
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1854603265
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 357
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1854603265
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 1854603265
+now : 1854603260
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 358
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1854603260
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 359
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1854603260
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 1854603260
+now : 1854603253
+Found better test case for uncovered branch 703:704
+prev: 1854603253
+now : 1854603111
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 360
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1854603111
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 1854603111
+now : 1854603108
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 361
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 1854603108
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 1854603108
+now : 784662529
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 362
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 784662529
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 363
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 784662529
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 364
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 784662529
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 365
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 784662529
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 366
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 784662529
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 367
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 784662529
+Fuzzed 				 6
+havoc
+Found better test case for uncovered branch 703:704
+prev: 784662529
+now : 763707265
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 368
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 763707265
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 369
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 763707265
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 370
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 763707265
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 763707265
+now : 713375617
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 371
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 713375617
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 713375617
+now : 245694080
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 372
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 245694080
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 245694080
+now : 245689984
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 373
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 245689984
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 374
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 245689984
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 375
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 245689984
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 376
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 245689984
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 377
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 245689984
+Fuzzed 				 5
+havoc
+Found better test case for uncovered branch 703:704
+prev: 245689984
+now : 245686273
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 378
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 245686273
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 245686273
+now : 245686209
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 379
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 245686209
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 380
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 245686209
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 245686209
+now : 145022913
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 381
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 145022913
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 145022913
+now : 144760769
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 382
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 144760769
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 383
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 144760769
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 384
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 144760769
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 385
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 144760769
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 386
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 144760769
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 387
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 144760769
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 388
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 144760769
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 389
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 144760769
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 390
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 144760769
+Fuzzed 				 9
+havoc
+Found better test case for uncovered branch 703:704
+prev: 144760769
+now : 144760764
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 391
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 144760764
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 392
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 144760764
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 144760764
+now : 144752673
+Found better test case for uncovered branch 703:704
+prev: 144752673
+now : 31514556
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 393
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31514556
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 31514556
+now : 31514492
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 394
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31514492
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 395
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31514492
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 31514492
+now : 31514484
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 396
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31514484
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 397
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31514484
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 398
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31514484
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 31514484
+now : 31072116
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 399
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31072116
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 31072116
+now : 31072065
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 400
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31072065
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 401
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31072065
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 402
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31072065
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 403
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31072065
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 31072065
+now : 31071809
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 404
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31071809
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 405
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31071809
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 406
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31071809
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 407
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31071809
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 408
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31071809
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 409
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31071809
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 410
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31071809
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 411
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31071809
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 412
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31071809
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 413
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 31071809
+Fuzzed 				 10
+havoc
+Found better test case for uncovered branch 703:704
+prev: 31071809
+now : 30973505
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 414
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 30973505
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 415
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 30973505
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 416
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 30973505
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 30973505
+now : 30760513
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 417
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 30760513
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 30760513
+now : 30759937
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 418
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 30759937
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 419
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 30759937
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 420
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 30759937
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 421
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 30759937
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 422
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 30759937
+Fuzzed 				 5
+havoc
+Found better test case for uncovered branch 703:704
+prev: 30759937
+now : 30759934
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 423
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 30759934
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 30759934
+now : 13982718
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 424
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13982718
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 13982718
+now : 13981374
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 425
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13981374
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 13981374
+now : 13489854
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 426
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13489854
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 427
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13489854
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 428
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13489854
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 429
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13489854
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 13489854
+now : 13484094
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 430
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13484094
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 431
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13484094
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 432
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13484094
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 13484094
+now : 13303870
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 433
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13303870
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 434
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13303870
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 435
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13303870
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 436
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13303870
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 437
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13303870
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 438
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13303870
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 439
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13303870
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 440
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13303870
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 441
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13303870
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 442
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 13303870
+Fuzzed 				 10
+havoc
+Found better test case for uncovered branch 703:704
+prev: 13303870
+now : 12910593
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 443
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 444
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 445
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 446
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 447
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 448
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 449
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 450
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 451
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 452
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 453
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 454
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 12
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 455
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 13
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 456
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 14
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 457
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 15
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 458
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 16
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 459
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 17
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 460
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12910593
+Fuzzed 				 18
+havoc
+Found better test case for uncovered branch 703:704
+prev: 12910593
+now : 12664833
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 461
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12664833
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 462
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12664833
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 463
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12664833
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 464
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12664833
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 465
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 12664833
+Fuzzed 				 5
+havoc
+Found better test case for uncovered branch 703:704
+prev: 12664833
+now : 10977281
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 466
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 467
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 468
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 469
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 470
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 471
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 472
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 473
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 474
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 475
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 476
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 477
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 12
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 478
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 13
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 479
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 14
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 480
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 15
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 481
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 16
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 482
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 17
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 483
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 18
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 484
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10977281
+Fuzzed 				 19
+havoc
+Found better test case for uncovered branch 703:704
+prev: 10977281
+now : 10829761
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 485
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10829761
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 486
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10829761
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 10829761
+now : 10823523
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 487
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10823523
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 488
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10823523
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 489
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10823523
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 490
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10823523
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 491
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10823523
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 492
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10823523
+Fuzzed 				 6
+havoc
+Found better test case for uncovered branch 703:704
+prev: 10823523
+now : 10823521
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 493
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10823521
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 10823521
+now : 10823509
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 494
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10823509
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 495
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 10823509
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 10823509
+now : 10823489
+Found better test case for uncovered branch 703:704
+prev: 10823489
+now : 8724545
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 496
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8724545
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 497
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8724545
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 498
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8724545
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 499
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8724545
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 8724545
+now : 8724417
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 500
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8724417
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 501
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8724417
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 502
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8724417
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 8724417
+now : 8724411
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 503
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8724411
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 504
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8724411
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 505
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8724411
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 506
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8724411
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 8724411
+now : 8724388
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 507
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8724388
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 8724388
+now : 8183716
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 508
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8183716
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 509
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8183716
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 510
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8183716
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 511
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8183716
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 512
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8183716
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 513
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8183716
+Fuzzed 				 6
+havoc
+Found better test case for uncovered branch 703:704
+prev: 8183716
+now : 8181540
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 514
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 8181540
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 8181540
+now : 7722788
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 515
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7722788
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 516
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7722788
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 517
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7722788
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 518
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7722788
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 7722788
+now : 7722753
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 519
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7722753
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 520
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7722753
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 521
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7722753
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 522
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7722753
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 523
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7722753
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 524
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7722753
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 525
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7722753
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 526
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7722753
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 527
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7722753
+Fuzzed 				 9
+havoc
+Found better test case for uncovered branch 703:704
+prev: 7722753
+now : 7657217
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 528
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7657217
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 7657217
+now : 7657212
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 529
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7657212
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 7657212
+now : 7427836
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 530
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7427836
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 7427836
+now : 7427831
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 531
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 7427831
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 7427831
+now : 6919927
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 532
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 6919927
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 533
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 6919927
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 534
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 6919927
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 6919927
+now : 4530231
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 535
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530231
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 536
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530231
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 537
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530231
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 538
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530231
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4530231
+now : 4530177
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 539
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 540
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 541
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 542
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 543
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 544
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 545
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 546
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 547
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 548
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 549
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 550
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 12
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 551
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 13
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 552
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 14
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 553
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 15
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 554
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4530177
+Fuzzed 				 16
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4530177
+now : 4528257
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 555
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4528257
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 556
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4528257
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 557
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4528257
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 558
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4528257
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 559
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4528257
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 560
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4528257
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 561
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4528257
+Fuzzed 				 7
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4528257
+now : 4526913
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 562
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526913
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 563
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526913
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 564
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526913
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 565
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526913
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 566
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526913
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 567
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526913
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 568
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526913
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 569
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526913
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 570
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526913
+Fuzzed 				 9
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4526913
+now : 4526907
+Found better test case for uncovered branch 703:704
+prev: 4526907
+now : 4526849
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 571
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526849
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 572
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526849
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 573
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526849
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 574
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526849
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4526849
+now : 4526465
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 575
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526465
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 576
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526465
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 577
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526465
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 578
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526465
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 579
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4526465
+Fuzzed 				 5
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4526465
+now : 4525633
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 580
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4525633
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 581
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4525633
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 582
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4525633
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 583
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4525633
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 584
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4525633
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 585
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4525633
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 586
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4525633
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 587
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4525633
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 588
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4525633
+Fuzzed 				 9
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4525633
+now : 4523649
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 589
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4523649
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 590
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4523649
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 591
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4523649
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 592
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4523649
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4523649
+now : 4521985
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 593
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 594
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 595
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 596
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 597
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 598
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 599
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 600
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 601
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 602
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 603
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 604
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 12
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 605
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 13
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 606
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 14
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 607
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 15
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 608
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 16
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 609
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 17
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 610
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 18
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 611
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 19
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 612
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 20
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 613
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 21
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 614
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 22
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 615
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 23
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 616
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 24
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 617
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 25
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 618
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 26
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 619
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521985
+Fuzzed 				 27
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4521985
+now : 4521978
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 620
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 4521978
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 4521978
+now : 475194
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 621
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475194
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 622
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475194
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 623
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475194
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 624
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475194
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 475194
+now : 475192
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 625
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475192
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 475192
+now : 475183
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 626
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 627
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 628
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 629
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 630
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 631
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 632
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 633
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 634
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 635
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 636
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 637
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 12
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 638
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 13
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 639
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 14
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 640
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 15
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 641
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 475183
+Fuzzed 				 16
+havoc
+Found better test case for uncovered branch 703:704
+prev: 475183
+now : 98259
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 642
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 643
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 644
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 645
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 646
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 647
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 648
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 649
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 650
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 651
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 652
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 653
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 12
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 654
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 13
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 655
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 14
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 656
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 15
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 657
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 16
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 658
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 17
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 659
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 98259
+Fuzzed 				 18
+havoc
+Found better test case for uncovered branch 703:704
+prev: 98259
+now : 82050
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 660
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 82050
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 661
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 82050
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 662
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 82050
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 663
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 82050
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 664
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 82050
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 665
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 82050
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 666
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 82050
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 667
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 82050
+Fuzzed 				 8
+havoc
+Found better test case for uncovered branch 703:704
+prev: 82050
+now : 81953
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 668
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81953
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 669
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81953
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 81953
+now : 81921
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 670
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 671
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 672
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 673
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 674
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 675
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 676
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 677
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 678
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 679
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 680
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 681
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 12
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 682
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 13
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 683
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 14
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 684
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 15
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 685
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 16
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 686
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 17
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 687
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 18
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 688
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 19
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 689
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 20
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 690
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 21
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 691
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 22
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 692
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 23
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 693
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 24
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 694
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 25
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 695
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 26
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 696
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 27
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 697
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 28
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 698
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 29
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 699
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 30
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 700
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 31
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 701
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 32
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 702
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 81921
+Fuzzed 				 33
+havoc
+Found better test case for uncovered branch 703:704
+prev: 81921
+now : 80193
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 703
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 80193
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 704
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 80193
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 705
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 80193
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 706
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 80193
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 707
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 80193
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 708
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 80193
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 709
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 80193
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 710
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 80193
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 711
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 80193
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 712
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 80193
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 713
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 80193
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 714
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 80193
+Fuzzed 				 12
+havoc
+Found better test case for uncovered branch 703:704
+prev: 80193
+now : 73921
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 715
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 73921
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 716
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 73921
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 717
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 73921
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 718
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 73921
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 719
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 73921
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 720
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 73921
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 721
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 73921
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 722
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 73921
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 723
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 73921
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 724
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 73921
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 725
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 73921
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 726
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 73921
+Fuzzed 				 12
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 727
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 73921
+Fuzzed 				 13
+havoc
+Found better test case for uncovered branch 703:704
+prev: 73921
+now : 57537
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 728
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 57537
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 729
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 57537
+Fuzzed 				 2
+havoc
+Found better test case for uncovered branch 703:704
+prev: 57537
+now : 57345
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 730
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 57345
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 731
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 57345
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 732
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 57345
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 733
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 57345
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 734
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 57345
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 735
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 57345
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 736
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 57345
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 737
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 57345
+Fuzzed 				 8
+havoc
+Found better test case for uncovered branch 703:704
+prev: 57345
+now : 49217
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 738
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49217
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 739
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49217
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 740
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49217
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 49217
+now : 49209
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 741
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49209
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 742
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49209
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 743
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49209
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 744
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49209
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 745
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49209
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 746
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49209
+Fuzzed 				 6
+havoc
+Found better test case for uncovered branch 703:704
+prev: 49209
+now : 49157
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 747
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49157
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 748
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49157
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 749
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49157
+Fuzzed 				 3
+havoc
+Found better test case for uncovered branch 703:704
+prev: 49157
+now : 49153
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 750
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 751
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 752
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 753
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 754
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 755
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 756
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 757
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 758
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 759
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 760
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 761
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 12
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 762
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 13
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 763
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 14
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 764
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 15
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 765
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 16
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 766
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 17
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 767
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 18
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 768
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 49153
+Fuzzed 				 19
+havoc
+Found better test case for uncovered branch 703:704
+prev: 49153
+now : 16385
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 769
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 16385
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 770
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 16385
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 771
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 16385
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 772
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 16385
+Fuzzed 				 4
+havoc
+Found better test case for uncovered branch 703:704
+prev: 16385
+now : 16378
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 773
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 16378
+Fuzzed 				 1
+havoc
+Found better test case for uncovered branch 703:704
+prev: 16378
+now : 6458
+Found better test case for uncovered branch 703:704
+prev: 6458
+now : 314
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 774
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 314
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 775
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 314
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 776
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 314
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 777
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 314
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 778
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 314
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 779
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 314
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 780
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 314
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 781
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 314
+Fuzzed 				 8
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 782
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 314
+Fuzzed 				 9
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 783
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 314
+Fuzzed 				 10
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 784
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 314
+Fuzzed 				 11
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 785
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 314
+Fuzzed 				 12
+havoc
+Found better test case for uncovered branch 703:704
+prev: 314
+now : 21
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 786
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 21
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 787
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 21
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 788
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 21
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 789
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 21
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 790
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 21
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 791
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 21
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 792
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 21
+Fuzzed 				 7
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 793
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 21
+Fuzzed 				 8
+havoc
+Found better test case for uncovered branch 703:704
+prev: 21
+now : 2
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 794
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2
+Fuzzed 				 1
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 795
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2
+Fuzzed 				 2
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 796
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2
+Fuzzed 				 3
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 797
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2
+Fuzzed 				 4
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 798
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2
+Fuzzed 				 5
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 799
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2
+Fuzzed 				 6
+havoc
+Splice
+ == Leader ==
+Branch 				 269:270
+Comp 				 1
+Fuzzed 				 800
+havoc
+Splice
+ == Leader ==
+Branch 				 703:704
+Comp 				 2
+Fuzzed 				 7
+havoc
+Cover new branch 269:270
+Cover new branch 703:704
+== TEST ==
+BR 703:704
+ComparisonValue 0
+BR 269:270
+ComparisonValue 0
+BR 196:264
+ComparisonValue 0
+BR 686:687
+ComparisonValue 0
+BR 269:518
+ComparisonValue 0
+BR 196:197
+ComparisonValue 0
+BR 686:698
+ComparisonValue 0
+BR 703:838
+ComparisonValue 0
+== END TEST ==
+ == Leader ==
+BR 				 196:197
+Remaing energy 				 4
+Fuzzed 				 0
+SingleWalkingByte
+TwoWalkingByte
+FourWalkingByte
+SingleInterest
+TwoInterest
+FourInterest
+overwriteAddress
+havoc
+ == Leader ==
+BR 				 196:264
+Remaing energy 				 4
+Fuzzed 				 0
+SingleWalkingByte
+TwoWalkingByte
+FourWalkingByte
+SingleInterest
+TwoInterest
+FourInterest
+overwriteAddress
+havoc
+ == Leader ==
+BR 				 269:270
+Remaing energy 				 3
+Fuzzed 				 0
+SingleWalkingByte
+== TEST ==
+BR : 703:704
+Max hit counts pre item : 1
+Total hit counts : 3
+BR : 269:270
+Max hit counts pre item : 1
+Total hit counts : 3
+BR : 196:264
+Max hit counts pre item : 1
+Total hit counts : 1823
+BR : 686:687
+Max hit counts pre item : 1
+Total hit counts : 1847
+BR : 196:197
+Max hit counts pre item : 1
+Total hit counts : 1724
+BR : 269:518
+Max hit counts pre item : 1
+Total hit counts : 3544
+BR : 703:838
+Max hit counts pre item : 1
+Total hit counts : 3544
+BR : 686:698
+Max hit counts pre item : 1
+Total hit counts : 1700
+== END TEST ==

@@ -1,0 +1,322 @@
+
+common-steps:
+
+  update-submodules: &update-submodules
+    run:
+      name: "Update git submodules"
+      command: |
+        git submodule update --init
+
+  environment-info: &environment-info
+    run:
+      name: "Environment info"
+      command: |
+        echo CXX: $CXX
+        $CXX --version
+        $CXX --version > compiler.version
+
+  configure: &configure
+    run:
+      name: "Configure"
+      # Build "out-of-source" to have better coverage report
+      # (ninja is using relative paths otherwise).
+      working_directory: ~/build
+      command: |
+        cmake ../project -G "$GENERATOR" -DCMAKE_BUILD_TYPE=$BUILD_TYPE $CMAKE_OPTIONS
+
+  build: &build
+    run:
+      name: "Build"
+      working_directory: ~/build
+      command: |
+        cmake --build . --target package -- -j $BUILD_PARALLEL_JOBS
+        mkdir -p ~/package
+        . aleth/buildinfo.sh
+        mv aleth.tar.gz ~/package/$PROJECT_NAME-$PROJECT_VERSION-$SYSTEM_NAME-$SYSTEM_PROCESSOR.tar.gz
+
+  test: &test
+    run:
+      name: "Test"
+      working_directory: ~/build
+      command: |
+        if [ $(uname) = Linux ]; then
+          export TMPDIR=/dev/shm
+        fi
+        export ETHEREUM_TEST_PATH=~/project/test/jsontests
+        ctest --output-on-failure -j $TEST_PARALLEL_JOBS
+
+  test-evmc-interpreter: &test-evmc-interpreter
+    run:
+      name: "Test EVMC Interpreter"
+      working_directory: ~/build
+      command: |
+        ETHEREUM_TEST_PATH=~/project/test/jsontests \
+        test/testeth -t GeneralStateTests -- --vm libaleth-interpreter/libaleth-interpreter.so
+
+  store-package: &store-package
+    store_artifacts:
+      path: ~/package
+      destination: package
+
+  add-package-to-workspace: &add-package-to-workspace
+      persist_to_workspace:
+        root: ~/package
+        paths:
+          - "*"
+
+  store-randomcode-seed: &store-randomcode-seed
+    store_artifacts:
+      path: ~/build/test/randomCodeSeed.txt
+      destination: randomCodeSeed.txt
+
+  save-deps-cache: &save-deps-cache
+    cache-save:
+      name: "Save dependencies cache"
+      key: &deps-cache-key deps-4-{{arch}}-{{checksum "compiler.version"}}-{{checksum "cmake/ProjectLibFF.cmake"}}
+      paths:
+        - ~/build/deps
+
+  restore-deps-cache: &restore-deps-cache
+    cache-restore:
+      name: "Restore dependencies cache"
+      key: *deps-cache-key
+
+  upload-coverage-data: &upload-coverage-data
+    run:
+      name: "Upload coverage data"
+      command: |
+        pwd
+        $GCOV --version
+        codecov --required --gcov-exec "$GCOV" --gcov-root ~/build
+
+  save-ccache: &save-ccache
+    save_cache:
+      name: "Save ccache"
+      key: ccache-1-{{arch}}-{{checksum "compiler.version"}}-{{.Branch}}-{{epoch}}
+      paths:
+        - ~/.ccache
+
+  restore-ccache: &restore-ccache
+    restore_cache:
+      name: "Restore ccache"
+      keys:
+        - ccache-1-{{arch}}-{{checksum "compiler.version"}}-{{.Branch}}
+        - ccache-1-{{arch}}-{{checksum "compiler.version"}}
+      paths:
+        - ~/.ccache
+
+  setup-ccache: &setup-ccache
+    run:
+      name: "Setup ccache"
+      command: |
+        ccache --version
+        ccache --show-stats
+        ccache --zero-stats
+        ccache --max-size=3G
+
+  stat-ccache: &stat-ccache
+    run:
+      name: "Show ccache stats"
+      command: |
+        ccache --show-stats
+
+
+version: 2
+jobs:
+
+  linux-clang6:
+    environment:
+      BUILD_TYPE: Release
+      CXX: clang++-6.0
+      CC:  clang-6.0
+      GCOV: llvm-cov-6.0 gcov
+      GENERATOR: Ninja
+      BUILD_PARALLEL_JOBS: 8
+      TEST_PARALLEL_JOBS: 8
+      CMAKE_OPTIONS: -DALETH_INTERPRETER_SHARED=ON -DLEVELDB_USE_STATIC_LIBS=ON
+    docker:
+      - image: ethereum/cpp-build-env:2
+    steps:
+      - checkout
+      - *update-submodules
+      - *environment-info
+      - *restore-deps-cache
+      - *restore-ccache
+      - *setup-ccache
+      - *configure
+      - *build
+      - *stat-ccache
+      - *save-ccache
+      - *save-deps-cache
+      - *store-package
+      - *add-package-to-workspace
+      - *test
+      - *test-evmc-interpreter
+
+  linux-gcc6: &linux-gcc6
+    environment: &linux-gcc6-environment
+      BUILD_TYPE: RelWithDebInfo
+      CXX: g++-6
+      CC:  gcc-6
+      GCOV: gcov-6
+      GENERATOR: Ninja
+      BUILD_PARALLEL_JOBS: 3
+      TEST_PARALLEL_JOBS: 4
+      CMAKE_OPTIONS: -DCOVERAGE=ON
+    docker:
+      - image: ethereum/cpp-build-env:2
+    steps:
+      - checkout
+      - *update-submodules
+      - *environment-info
+      - *restore-deps-cache
+      - *restore-ccache
+      - *setup-ccache
+      - *configure
+      - *build
+      - *stat-ccache
+      - *save-ccache
+      - *save-deps-cache
+      - *store-package
+      - *test
+      - *upload-coverage-data
+
+  linux-gcc6-nightly:
+    <<: *linux-gcc6
+    environment:
+      <<: *linux-gcc6-environment
+      CMAKE_OPTIONS: -DCOVERAGE=ON -DTESTETH_ARGS=--all
+
+  macos-xcode90:
+    environment:
+      CXX: clang++
+      GCOV: gcov
+      GENERATOR: Ninja
+      BUILD_PARALLEL_JOBS: 8
+      TEST_PARALLEL_JOBS: 8
+    macos:
+      xcode: "9.0"
+    steps:
+      - checkout
+      - *update-submodules
+      - *environment-info
+      - run:
+          name: "Install macOS dependencies"
+          # Python3 and requests are needed for Hunter upload.
+          command: |
+            HOMEBREW_NO_AUTO_UPDATE=1 brew install -q cmake ninja python3 leveldb
+            pip3 install -q requests gitpython
+      - *restore-deps-cache
+      - *configure
+      - *build
+      - *save-deps-cache
+      - *store-package
+      - *add-package-to-workspace
+      - *test
+      - *store-randomcode-seed
+
+  # The job collects built packages (available in the workspace) and
+  # uploads them to the GitHub release matching the git tag.
+  deploy:
+    docker:
+      - image: circleci/golang
+    steps:
+      - run:
+          name: "Install ghr"
+          command: go get -u github.com/tcnksm/ghr
+      - attach_workspace:
+          at: ~/package
+      - run:
+          name: "Create GitHub release"
+          command: |
+            prerelease_flag=$([[ $CIRCLE_TAG =~ ^v[0-9\.]+$ ]] || echo '-prerelease')
+            name="Aleth ${CIRCLE_TAG:1}"
+            ghr -u ethereum -r aleth -n "$name" $prerelease_flag $CIRCLE_TAG ~/package
+
+  # Builds aleth docker image and uploads it to Docker Hub.
+  docker-aleth: &docker-aleth
+    docker:
+      - image: circleci/golang
+    steps:
+      - checkout
+      - run:
+          name: "Update required git submodules"
+          command: git submodule update --init --recursive evmc cmake/cable
+      - setup_remote_docker
+      - run:
+          name: "Build aleth docker image"
+          command: docker build -t ethereum/aleth:local -f scripts/docker/aleth.dockerfile .
+      - run:
+          name: "Push aleth docker image"
+          command: |
+            echo $DOCKER_PASSWORD | docker login -u $DOCKER_USER_ID --password-stdin
+            if [[ $CIRCLE_TAG =~ ^v[0-9].* ]]; then
+              tag=${CIRCLE_TAG:1}
+              docker tag ethereum/aleth:local ethereum/aleth:$tag
+              docker push ethereum/aleth:$tag
+              echo "Pushed ethereum/aleth:$tag"
+            fi
+            if [[ $NIGHTLY ]]; then
+              docker tag ethereum/aleth:local ethereum/aleth:nightly
+              docker push ethereum/aleth:nightly
+              echo "Pushed ethereum/aleth:nightly"
+            fi
+            echo "See https://hub.docker.com/r/ethereum/aleth/tags/"
+
+  docker-aleth-nightly:
+    <<: *docker-aleth
+    environment:
+      NIGHTLY: true
+
+
+workflows:
+  version: 2
+
+  aleth:
+    jobs:
+      - macos-xcode90:
+          filters:
+            tags:
+              only: /.*/
+      - linux-clang6:
+          filters:
+            tags:
+              only: /.*/
+      - linux-gcc6:
+          filters:
+            tags:
+              only: /.*/
+
+      - deploy:
+          requires:
+            - macos-xcode90
+            - linux-clang6
+            - linux-gcc6
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v[0-9].*/
+
+      - docker-aleth:
+          requires:
+            - macos-xcode90
+            - linux-clang6
+            - linux-gcc6
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v[0-9].*/
+
+  nightly:
+    triggers:
+    - schedule:
+        cron: "0 0 * * *"
+        filters:
+          branches:
+            only:
+            - master
+    jobs:
+      - linux-gcc6-nightly
+      - docker-aleth-nightly

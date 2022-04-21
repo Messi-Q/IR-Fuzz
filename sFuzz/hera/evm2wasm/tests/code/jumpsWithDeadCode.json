@@ -1,0 +1,33 @@
+[
+  {
+    "description": "test solidity dispatcher preamble",
+    "source": [
+      "PUSH1",
+      "0x06",
+      "JUMP",
+      "PUSH1",
+      "0x0d",
+      "JUMP",
+      "JUMPDEST",
+      "PUSH1",
+      "0x01",
+      "STOP"
+    ],
+    "code": "0x600656600d565b600100",
+    "result": {
+      "stack": [
+        "0x01"
+      ],
+      "memory": []
+    },
+    "gasUsed": 15,
+    "environment": {
+      "coinbase": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000"
+    },
+    "message": {
+      "data": "0x",
+      "from": "0x0000000000000000000000000000000000000000"
+    }
+  }
+]

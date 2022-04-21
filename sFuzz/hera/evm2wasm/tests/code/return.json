@@ -1,0 +1,33 @@
+[
+  {
+    "description": "test that no code runs after we return",
+    "source": [
+      "PUSH1",
+      "0x03",
+      "PUSH1",
+      "0x03",
+      "PUSH1",
+      "0x00",
+      "PUSH1",
+      "0x01",
+      "RETURN",
+      "MUL"
+    ],
+    "code": "0x6003600360006001f302",
+    "result": {
+      "stack": [
+        "0x03"
+      ],
+      "memory": []
+    },
+    "gasUsed": 12,
+    "environment": {
+      "coinbase": "0x0000000000000000000000000000000000000000",
+      "address": "0x0000000000000000000000000000000000000000"
+    },
+    "message": {
+      "data": "0x",
+      "from": "0x0000000000000000000000000000000000000000"
+    }
+  }
+]
