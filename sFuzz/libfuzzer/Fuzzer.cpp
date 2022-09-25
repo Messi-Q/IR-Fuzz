@@ -251,10 +251,10 @@ void Fuzzer::showStats(const Mutation& mutation, const int branchSize)
     // auto toResult = [](bool val) { return val ? "found" : "none "; };
 
     if (fuzzParam.is_prefuzz)
-        printf(cGRN Bold "%sTAFuzer branch seaching (%s)" cRST "\n", padStr("", 10).c_str(),
+        printf(cGRN Bold "%sIR-Fuzz branch seaching (%s)" cRST "\n", padStr("", 10).c_str(),
             contract.contractName.substr(10, contract.contractName.find(":") - 14).c_str());
     else
-        printf(cGRN Bold "%sTAFuzer vulernability detecting (%s)" cRST "\n", padStr("", 10).c_str(),
+        printf(cGRN Bold "%sIR-Fuzz vulernability detecting (%s)" cRST "\n", padStr("", 10).c_str(),
             contract.contractName.substr(10, contract.contractName.find(":") - 14).c_str());
     printf(bTL bV5 cGRN " processing time " cRST bV20 bV20 bV5 bV2 bV2 bV5 bV bTR "\n");
     printf(bH "      run time : %s " bH "\n", formatDuration(duration).data());
