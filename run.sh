@@ -1,6 +1,6 @@
 # !/bin/bash
 cd tools/
-python pre_analysis.py
+python3 pre_analysis.py
 cd ..
 ./fuzz -g -p -r 2 -d 5 && chmod +x fuzzMe && ./fuzzMe
 
@@ -24,11 +24,11 @@ do
 done 
 
 cd tools/
-python get_targetLoc.py
+python3 get_targetLoc.py
 cd ..
 ./analyse_prefix > logs/analyze.txt
 
 ./fuzz -g -r 2 -d 1000 -t 5 && chmod +x fuzzMe && ./fuzzMe
 
 cd tools/
-python get_VulnerabilityLoc.py
+python3 get_VulnerabilityLoc.py

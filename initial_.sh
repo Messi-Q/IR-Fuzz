@@ -1,5 +1,5 @@
 # !/bin/bash
-mkdir source_codes contracts logs branch_msg sFuzz/build
+mkdir source_code contracts logs branch_msg sFuzz/build
 
 cd sFuzz/build/
 cmake ..

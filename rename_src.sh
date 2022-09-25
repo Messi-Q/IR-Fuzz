@@ -1,4 +1,4 @@
 # !/bin/bash
 
 cd ./tools/
-python rename_contracts.py
+python3 rename_contracts.py
