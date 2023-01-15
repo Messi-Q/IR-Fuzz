@@ -117,4 +117,4 @@ cd ..
 
 
 ## Dataset
-We release the benchmark dataset collected from Etherescan, which contains over 12K Ethereum smart contracts and concerns eight types of vulnerabilities. Download the benchmark dataset at [Smart contract dataset](https://drive.google.com/file/d/1AgPCDGBW3Z52bTBMn_FyEqBNypjy0XFh/view?usp=sharing).
+We release the benchmark dataset collected from Etherescan, which contains over 12K Ethereum smart contracts and concerns eight types of vulnerabilities. Download the benchmark dataset at [Smart-contract-dataset](https://drive.google.com/file/d/1iU2J-BIstCa3ooVhXu-GljOBzWi9gVrG/view?usp=share_link).
