@@ -144,7 +144,7 @@ string compileSolFiles(string folder)
         ret << " --combined-json abi,bin,bin-runtime,srcmap,srcmap-runtime,ast " + filePath;
         ret << " > " + filePath + ".json";
         ret << endl;
-        ret << "python tools/gen_funcs_order.py ";
+        ret << "python3 tools/gen_funcs_order.py ";
         ret << filePath;
         ret << endl;
     });
@@ -158,7 +158,7 @@ string compileSolFiles(string folder, string attackerName)
     ret << " --combined-json abi,bin,bin-runtime,srcmap,srcmap-runtime,ast " + filePath;
     ret << " > " + filePath + ".json";
     ret << endl;
-    ret << "python tools/gen_funcs_order.py ";
+    ret << "python3 tools/gen_funcs_order.py ";
     ret << filePath;
     ret << endl;
     return ret.str();
@@ -175,7 +175,7 @@ string fuzzJsonFiles(string contracts, string assets, int duration, int case_num
         auto contractName = toContractName(file);
         if (contractNames.count(contractName))
             return;
-        ret << "python tools/gen_attack_contract.py ";
+        ret << "python3 tools/gen_attack_contract.py ";
         ret << filePath;
         ret << endl;
         ret << "./fuzz";

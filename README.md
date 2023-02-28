@@ -11,15 +11,11 @@ Dependencies:
 
 * [CMake](https://cmake.org/download/): >=[3.5.1](sFuzz/CMakeLists.txt#L5)
 * [Python](https://www.python.org/downloads/): >=3.5（ideally 3.6）
-* Go: 1.15
-* leveldb
-* [Geth & Tools](https://geth.ethereum.org/downloads/)
+* Go: >=1.15
+* leveldb 1.20
+* [Geth & Tools](https://geth.ethereum.org/downloads/): geth, evm, etc
 * solc: 0.4.26
-```
-sudo add-apt-repository ppa:ethereum/ethereum
-sudo apt-get update
-sudo apt-get install solc
-```
+* numpy
 
 ## Architecture
 
@@ -111,10 +107,18 @@ cd ..
 ./run.sh
 ```
 
-- Note: the code is adapted from [sFuzz](https://github.com/duytai/sFuzz) (a state-of-the-art fuzzer for smart contracts) and [bran](https://github.com/Practical-Formal-Methods/bran) (a static analysis framework for EVM bytecode). 
+### Note
 
-- Note: if you download the boost version >= 1.7.0, you may need to update the ".get_io_service()" (in sFuzz/libp2p/RLPxHandshake.h) to ".get_executor()".
+- The code is adapted from [sFuzz](https://github.com/duytai/sFuzz) (a state-of-the-art fuzzer for smart contracts) and [bran](https://github.com/Practical-Formal-Methods/bran) (a static analysis framework for EVM bytecode). 
+
+
+- If you download the boost version >= 1.7.0, you need to update the ".get_io_service()" (in sFuzz/libp2p/RLPxHandshake.h) to ".get_executor()". (We have updated in this project).
+
+
+- If any question, please email to messi.qp711@gmail.com. 
+
 
 
 ## Dataset
-We release the benchmark dataset collected from Etherescan, which contains over 12K Ethereum smart contracts and concerns eight types of vulnerabilities. Download the benchmark dataset at [Smart-contract-dataset](https://drive.google.com/file/d/1iU2J-BIstCa3ooVhXu-GljOBzWi9gVrG/view?usp=share_link).
+We release the benchmark dataset collected from Etherescan, which contains over 12K Ethereum smart contracts and concerns eight types of vulnerabilities. 
+More details for the dataset instruction can be found on our dataset page at [Smart-Contract-Dataset](https://github.com/Messi-Q/Smart-Contract-Dataset), which is continuously improving.
